@@ -8,7 +8,7 @@ const Header = () => {
         {/* 로고 */}
         <a href="/" className="flex items-center gap-2">
           <img src="/logo.png" alt="Jena Logo" className="h-6 w-auto" />
-          <span className="font-bold text-lg text-gray-800">Jena</span>
+          <span className="font-bold text-lg text-gray-800">Jena's Archive Blog </span>
         </a>
 
         {/* 메뉴 */}
