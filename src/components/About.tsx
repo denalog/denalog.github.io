@@ -63,8 +63,9 @@ const About = () => {
             <Image
               src="/jena.jpg"
               alt="Jena's profile"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
+              priority
             />
             <div className="absolute inset-0 rounded-full ring-4 ring-purple-300 opacity-30 animate-pulse" />
           </motion.div>
